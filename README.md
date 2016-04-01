@@ -8,11 +8,22 @@ Date:               2015-08-08
 
 
 **************************************************************************************************
-If you like My Automatic device and related smartapps, please support the developer:
 
+/*********************************************************************************************
 
-<br/> [![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](
-https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=yracine%40yahoo%2ecom&lc=US&item_name=Maisons%20ecomatiq&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
+please take note of the following statement:**
+
+**http://thingsthataresmart.wiki/index.php?title=My_Automatic_Device#Notes_to_MyAutomatic_Device_Users_-_Contribution_is_now_require**
+
+/*********************************************************************************************
+
+You can now download the code at 
+
+<b>
+http://www.maisonsecomatiq.com/#!store/tc3yr 
+</b>
+
+P.S. Technical support packages are also available.
 
 Setup time: About 5 minutes
 
@@ -23,18 +34,16 @@ INSTALLATION STEPS
 
 /**************************************************************************************************/
 
-<b>1) Create a new device type (My Automatic Device) for your device(s)</b>
+<b>1) Create a new device handler (My Automatic Device) for your device(s)</b>
 /**************************************************************************************************/
 
 a) Go to https://graph.api.smartthings.com/ide/devices
 
-b) Hit the "+New Device Type" at the top right corner
+b) Hit the "+New Device Handler" at the top right corner
 
 c) Hit the "From Code" tab on the left corner
 
-d) Copy and paste the code from myautomatic.devicetype
-under https://github.com/yracine/device-type.myautomatic/blob/master/myautomatic.devicetype
-
+d) Copy and paste the code from myautomatic.devicetype from the source file
 e) Hit the create button at the bottom
 
 f) Hit the "publish/for me" button at the top right corner (in the code window)
@@ -50,8 +59,7 @@ b) Hit the "+New SmartApp" at the top right corner
 
 c) Hit the "From Code" tab on the left corner
 
-d) Copy and paste the code from MyAutomaticServiceMgr
-under http://github.com/yracine/device-type.myautomatic/blob/master/smartapps/myAutomaticServiceMgr
+d) Copy and paste the code from MyAutomaticServiceMgr from the source file
 
 e) Hit the create button at the bottom
 
@@ -108,11 +116,7 @@ Note: In the next step, as Automatic does not presently support wildcard URL red
 /**************************************************************************************************/
 
 
-a) From your phone or tablet, within the smartThings app and on the main screen, click on '+' at the bottom, under SmartApps, scroll down to My Apps, and execute MyAutomaticServiceMgr.
-
-<b>If you have upgraded to the new UI, click on the Smartapps link in the upper section of any of the following
-screens: Home & Marketspace, and then MyApps (last item in the list).</b>
-
+<b>Under the ST app, click on the Smartapps link in the upper section of the following Marketspace screen (last icon at the bottom), and then MyApps (last item in the list).</b>
 
 b) The smartapp will ask you to authenticate on the Automatic portal (by pressing Next on the first page)
 
@@ -149,7 +153,7 @@ https://graph.api.smartthings.com/device/list
 /**************************************************************************************************/
 
 <b>7) Under the SmartThings app (on your tablet or smartphone), you should then
-see the new Automatic Object(s) under the 'Things' shortcut on the dashboard</b>
+see the new Automatic Object(s) under the 'myHome/Things' shortcut on the dashboard</b>
 
 /**************************************************************************************************/
 
